@@ -1,0 +1,3634 @@
+{
+    "id": "dff9506ca17b526eb44fb52db183553f",
+    "name": "My Space",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "54239336393d469d87a52011aca09bba",
+            "name": "Post Statusmoodcomments Personid Self Statusid",
+            "url": "httpsapi.myspace.com\/\/1.0\/statusmoodcomments\/{personId}\/@self\/{statusId}",
+            "description": "Posts a comment to a status.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "statusId",
+                    "description": "Specifies which status or mood to post a comment for.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "selector",
+                    "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterBy",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterOp",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterValue",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "fe85b44823bb535a12651feba0b71ad8",
+            "name": "Get Statusmood Personid Selector Friendid History",
+            "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/{selector}\/{friendId}\/history",
+            "description": "Returns History Friend.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "friendId",
+                    "description": "Is the same as {personId}, but for the person's friend.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "selector",
+                    "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterBy",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterOp",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterValue",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "b57b33d73890f924a52859a3f8a33b3b",
+            "name": "Get Statusmood Personid Selector Friendid",
+            "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/{selector}\/{friendId}",
+            "description": "Returns a status for Friend.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "friendId",
+                    "description": "Is the same as {personId}, but for the person's friend.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "selector",
+                    "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterBy",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterOp",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterValue",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "e9c72469ff38a4228520dfa20efb3e14",
+            "name": "Get Statusmood Personid Selector History",
+            "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/{selector}\/history",
+            "description": "Returns History User.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "selector",
+                    "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterBy",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterOp",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterValue",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "1cdd385b628d497651c361009282f6d6",
+            "name": "Put Statusmood Personid Selector",
+            "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/{selector}",
+            "description": "Updates a status for User.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "selector",
+                    "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterBy",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterOp",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterValue",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "d888b7f7799a9fa56009cd8c3fe5bb24",
+            "name": "Get Statusmood Personid Selector",
+            "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/{selector}",
+            "description": "Returns a status for User.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "selector",
+                    "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterBy",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterOp",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterValue",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "e6d3a79454b08b1414ac1651298cece4",
+            "name": "Put Statusmood Personid @supportedmood Moodid",
+            "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/@supportedMood\/{moodId}",
+            "description": "Updates a mood.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "moodId",
+                    "description": "The integer value of the specific mood that you want to retrieve data for.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterBy",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterOp",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterValue",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "f02f12063bc1d9ae8aaa668cab1a6066",
+            "name": "Get Statusmood Personid @supportedmood Moodid",
+            "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/@supportedMood\/{moodId}",
+            "description": "Retrieves a mood.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "moodId",
+                    "description": "The integer value of the specific mood that you want to retrieve data for.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterBy",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterOp",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterValue",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "e1e44478d617137cc7319a49650aff97",
+            "name": "Post Statusmood Personid @supportedmood",
+            "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/@supportedMood",
+            "description": "Adds a mood.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterBy",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterOp",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterValue",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "1fac82d5ba4bd69f1bae23a5925b3d67",
+            "name": "Get Statusmood Personid @supportedmood",
+            "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/@supportedMood",
+            "description": "Retrieves all supported moods.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterBy",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterOp",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterValue",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "bcfe08f539edd05ba1600bfd44ad8fb8",
+            "name": "Get Mediaitemcomments Personid Self Albums Mediaitemid",
+            "url": "httpsapi.myspace.com\/\/1.0\/mediaitemcomments\/{personId}\/@self\/{albumId}\/{mediaItemId}",
+            "description": "Retrieves item comments from a specified album.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "albumId",
+                    "description": "Indicates which single album from the group identified by {selector} should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mediaItemId",
+                    "description": "Indicates which single media item from the album identified by {albumId} should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "c9ad78d19ce2e7202407738c2613cd2e",
+            "name": "Get Mediaitems Personid Videos Supported Categories Categoryid",
+            "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@videos\/@supportedcategories\/{categoryId}",
+            "description": "Retrieves videos for Category.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "categoryId",
+                    "description": "Indicates the video category about which you want to retrieve data.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "c4aaed5ad46c147ee28d198bf154db0c",
+            "name": "Get Mediaitems Personid Videos Supported Categories",
+            "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@videos\/@supportedcategories",
+            "description": "Retrieves supported categories.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "08a3ba7ba4f6b01e63a4ea7bb4d5b14e",
+            "name": "Put Mediaitems Personid Self Videos Mediaitemid",
+            "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/@videos\/{mediaItemId}",
+            "description": "Updates an video.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mediaItemId",
+                    "description": "Indicates which single media item from the album identified by {albumId} should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "94cec3a859fb120b3bcd875ba03a5335",
+            "name": "Get Mediaitems Personid Self Videos Mediaitemid",
+            "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/@videos\/{mediaItemId}",
+            "description": "Retrieves a video.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mediaItemId",
+                    "description": "Indicates which single media item from the album identified by {albumId} should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "3df00ba9d5de7b5ddd61a60303342bb5",
+            "name": "Post Mediaitems Personid Self Videos",
+            "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/@videos",
+            "description": "Adds videos from a specified album.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "527f4cccd8f8276c613e5209ae0d5f5b",
+            "name": "Get Mediaitems Personid Self Videos",
+            "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/@videos",
+            "description": "Retrieves all the videos.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "e7de78958170bd81177e5580f8e0ed5e",
+            "name": "Put Mediaitems Personid Self Albums Mediaitemid",
+            "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/{albumId}\/{mediaItemId}",
+            "description": "Updates an item from a specified album.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "albumId",
+                    "description": "Indicates which single album from the group identified by {selector} should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mediaItemId",
+                    "description": "Indicates which single media item from the album identified by {albumId} should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "70e3065e29eb961a4406699990cb1ef9",
+            "name": "Get Mediaitems Personid Self Albums Mediaitemid",
+            "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/{albumId}\/{mediaItemId}",
+            "description": "Retrieves an item from a specified album.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "albumId",
+                    "description": "Indicates which single album from the group identified by {selector} should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "mediaItemId",
+                    "description": "Indicates which single media item from the album identified by {albumId} should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "8e27c436362ede89f1551c01eac4b5cd",
+            "name": "Post Mediaitems Personid Self Albums",
+            "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/{albumId}",
+            "description": "Adds items from a specified album.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "albumId",
+                    "description": "Indicates which single album from the group identified by {selector} should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "ed53bddc7164b358a3b8fdec8499ace6",
+            "name": "Get Mediaitems Personid Self Albums",
+            "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/{albumId}",
+            "description": "Retrieves items from a specified album.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "albumId",
+                    "description": "Indicates which single album from the group identified by {selector} should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "861fdf9b8682b61008f190917ed69485",
+            "name": "Get Mediaitems Supported Fields",
+            "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/@supportedFields",
+            "description": "Retrieves all supported fields.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "24700a005635bc4a260bc0976346da6d",
+            "name": "Delete Stream Subscription All",
+            "url": "httpsapi.myspace.com\/\/stream\/subscription\/@all",
+            "description": "Deletes all subscriptions.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "e708b6842be481a7378e5845efe4a267",
+            "name": "Get Stream Subscription All",
+            "url": "httpsapi.myspace.com\/\/stream\/subscription\/@all",
+            "description": "Retrieves all subscriptions.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "4586026788fffa89449ef1b3694cbbf7",
+            "name": "Delete Stream Subscription Subscriptionid",
+            "url": "httpsapi.myspace.com\/\/stream\/subscription\/{subscriptionId}",
+            "description": "Deletes a subscription.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "subscriptionId",
+                    "description": "The subscription's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "1da540aebac1f4737ace8769aecaa05a",
+            "name": "Put Stream Subscription Subscriptionid",
+            "url": "httpsapi.myspace.com\/\/stream\/subscription\/{subscriptionId}",
+            "description": "Updates a subscription.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "subscriptionId",
+                    "description": "The subscription's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "4254bfbfb0a5810f7b606243b1521888",
+            "name": "Get Stream Subscription Subscriptionid",
+            "url": "httpsapi.myspace.com\/\/stream\/subscription\/{subscriptionId}",
+            "description": "Retrieves a subscription.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "subscriptionId",
+                    "description": "The subscription's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "f1328edb08ef33518516e7a51a32d960",
+            "name": "Post Stream Subscription",
+            "url": "httpsapi.myspace.com\/\/stream\/subscription",
+            "description": "Creates a subscription.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "395f4267e6884046afb7f38ae798fdc1",
+            "name": "Get Opensearch Veos",
+            "url": "httpsapi.myspace.com\/\/opensearch\/videos",
+            "description": "Returns search results for videos.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "searchTerms",
+                    "description": "Free form search terms or query words",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "culture",
+                    "description": "The culture context of the search. Default is en-us.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startPage",
+                    "description": "Which page to start at for the results.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "tag",
+                    "description": "Determine if searching on tags, as opposed to contents. To enable tag search, set to 1.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "videoMode",
+                    "description": "Search for specific video types. Two allowed values are videoMode=1 (music videos) or videoMode=2 (official).",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "e65504757ea4e6657c842e8552ac4896",
+            "name": "Get Opensearch Images",
+            "url": "httpsapi.myspace.com\/\/opensearch\/images",
+            "description": "Returns search results for images.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "searchTerms",
+                    "description": "Free form search terms or query words",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "culture",
+                    "description": "The culture context of the search. Default is en-us.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sortBy",
+                    "description": "How to sort the images. Default is all.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "sortOrder",
+                    "description": "Indicates whether to sort ascending or descending. Default is descending.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startPage",
+                    "description": "Which page to start at for the results.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "4bdf5c3b65327ae3c9ef1109b0d6a843",
+            "name": "Get Opensearch People",
+            "url": "httpsapi.myspace.com\/\/opensearch\/people",
+            "description": "Returns search results for people.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "searchTerms",
+                    "description": "Free form search terms or query words",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "countryCode",
+                    "description": "Country code to search with. Can be used instead of culture.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "culture",
+                    "description": "The culture context of the search. Default is en-us.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "distance",
+                    "description": "Distance away from location to return results. Default is in miles, but depending on culture specified, it can be in kilometers.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "gender",
+                    "description": "The gender to filter on. Default is both.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "hasPhoto",
+                    "description": "Filter for only those who have a photo. Default those with or without a photo.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "latitude",
+                    "description": "Geographic latitude. Required to be combined with longitude and not combined with location field.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "location",
+                    "description": "The location field, such as city, state and\/or country.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "longitude",
+                    "description": "Geographic longitude. Required to be combined with latitude and not combined with location field.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "minAge",
+                    "description": "Minimum age for returned people. Same functionality as the MySpace website search.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "maxAge",
+                    "description": "Maximum age for returned people. Same functionality as the MySpace website search.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "searchBy",
+                    "description": "Which field the search should go through. Default is all of the fields. (yomi is only available to ja-jp culture).",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startPage",
+                    "description": "Which page to start at for the results.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "63449ddf8ef437936d5c848909eb5d9f",
+            "name": "Get Profilecomments Personid Self",
+            "url": "httpsapi.myspace.com\/\/1.0\/profilecomments\/{personId}\/@self",
+            "description": "Retrieves profile comments.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "6c028021324938215df4c1101dd1df22",
+            "name": "Get People Personid Selector Friendid",
+            "url": "httpsapi.myspace.com\/\/1.0\/people\/{personId}\/{selector}\/{friendId}",
+            "description": "Retrieves friend data.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "selector",
+                    "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "friendId",
+                    "description": "Is the same as {personId}, but for the person's friend.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterBy",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterOp",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterValue",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "14cfe5dde2d483c359e635f559a8fad3",
+            "name": "Get People Personid Selector",
+            "url": "httpsapi.myspace.com\/\/1.0\/people\/{personId}\/{selector}",
+            "description": "Retrieves user data.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "selector",
+                    "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterBy",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterOp",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "filterValue",
+                    "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "23110b52318259a0dafe36db5809d4e1",
+            "name": "Get People Supported Fields",
+            "url": "httpsapi.myspace.com\/\/1.0\/people\/@supportedFields",
+            "description": "Retrieves all supported fields.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "37944e1f33c88c3f41ff6cdf587692a9",
+            "name": "Delete Appdata Personid Selector Appid",
+            "url": "httpsapi.myspace.com\/\/1.0\/appdata\/{personId}\/{selector}\/{appId}",
+            "description": "Deletes a specified user's application data.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "selector",
+                    "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "appId",
+                    "description": "The application's ID associated with the OAuth ConsumerKey\/ConsumerSecret pair.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "abfe9ba6b44d48c09dc5a405c25f286e",
+            "name": "Post Appdata Personid Selector Appid",
+            "url": "httpsapi.myspace.com\/\/1.0\/appdata\/{personId}\/{selector}\/{appId}",
+            "description": "Adds or updates a specified user's application data.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "selector",
+                    "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "appId",
+                    "description": "The application's ID associated with the OAuth ConsumerKey\/ConsumerSecret pair.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "ba35838038af8291219d2ff0788a85a9",
+            "name": "Get Appdata Personid Selector Appid",
+            "url": "httpsapi.myspace.com\/\/1.0\/appdata\/{personId}\/{selector}\/{appId}",
+            "description": "Retrieves all application data for a specified user.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "selector",
+                    "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "appId",
+                    "description": "The application's ID associated with the OAuth ConsumerKey\/ConsumerSecret pair.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "c15910aabcfd3bd10bf8be851c8ed894",
+            "name": "Post Notifications Personid Self",
+            "url": "httpsapi.myspace.com\/\/1.0\/notifications\/{personId}\/@self",
+            "description": "Sends notification.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "908079a10d946f51681ae4d8dca802d3",
+            "name": "Get Groups Personid",
+            "url": "httpsapi.myspace.com\/\/1.0\/groups\/{personId}",
+            "description": "Retrieves the current user's groups.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "da96b47110f7ec5886456f1e42a6317c",
+            "name": "Get Groups Supported Fields",
+            "url": "httpsapi.myspace.com\/\/1.0\/groups\/@supportedFields",
+            "description": "Retrieves all supported fields.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "12c7a31a134d21014916ef58ed99abcc",
+            "name": "Put Albums Personid Self Albums",
+            "url": "httpsapi.myspace.com\/\/1.0\/albums\/{personId}\/@self\/{albumId}",
+            "description": "Update an Album.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "albumId",
+                    "description": "Indicates which single album from the group identified by {selector} should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "f7f79716e40e5d1b003a88dac4e857f0",
+            "name": "Get Albums Personid Self Albums",
+            "url": "httpsapi.myspace.com\/\/1.0\/albums\/{personId}\/@self\/{albumId}",
+            "description": "Retrieves an album.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "albumId",
+                    "description": "Indicates which single album from the group identified by {selector} should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "f6d36e37c69be9943185e64dd11be9df",
+            "name": "Post Albums Personid Self",
+            "url": "httpsapi.myspace.com\/\/1.0\/albums\/{personId}\/@self",
+            "description": "Adding an Album.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "1f82cc35f8ff35900d346149994fd54a",
+            "name": "Get Albums Personid Self",
+            "url": "httpsapi.myspace.com\/\/1.0\/albums\/{personId}\/@self",
+            "description": "Retrieves the current user's albums.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "7f3c0a7d52743bed8b62b22534d96dbd",
+            "name": "Get Albums Supported Fields",
+            "url": "httpsapi.myspace.com\/\/1.0\/albums\/@supportedFields",
+            "description": "Retrieves all supported fields.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "msPrivacyLevel",
+                    "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "273bb493274d63c172672ffd296c5eae",
+            "name": "Get Activities Personid Selector Appid",
+            "url": "httpsapi.myspace.com\/\/1.0\/activities\/{personId}\/{selector}\/{appId}",
+            "description": "Retrieves activities created by an application.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "selector",
+                    "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "appId",
+                    "description": "The application's ID associated with the OAuth ConsumerKey\/ConsumerSecret pair.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "updatedSince",
+                    "description": "Indicates the date before which no activities should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "a6c64518d71e162f30f851b9347f24d0",
+            "name": "Get Activities Supported Object Types",
+            "url": "httpsapi.myspace.com\/\/1.0\/activities\/@supportedObjectTypes",
+            "description": "Retrieves all supported object types.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "updatedSince",
+                    "description": "Indicates the date before which no activities should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "9a9f43494880921c2d1295ad259bb356",
+            "name": "Get Activities Supported Verbs",
+            "url": "httpsapi.myspace.com\/\/1.0\/activities\/@supportedVerbs",
+            "description": "Retrieves all supported verbs.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "updatedSince",
+                    "description": "Indicates the date before which no activities should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "26243f8eef010c084765d47f4ecbfdd3",
+            "name": "Get Activities Supported Fields",
+            "url": "httpsapi.myspace.com\/\/1.0\/activities\/@supportedFields",
+            "description": "Retrieves all supported fields.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "updatedSince",
+                    "description": "Indicates the date before which no activities should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "09e6a93713af70af49e775008cd64557",
+            "name": "Post Activities Personid Self",
+            "url": "httpsapi.myspace.com\/\/1.0\/activities\/{personId}\/@self",
+            "description": "Creates an activity for the user.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "Content",
+                    "description": "Specifies Content Type.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        },
+        {
+            "id": "f0b54fb2dab8b234e4a3d7375d4c3418",
+            "name": "Get Activities Personid Selector",
+            "url": "httpsapi.myspace.com\/\/1.0\/activities\/{personId}\/{selector}",
+            "description": "Retrieves all activities for the user or for the friends of the viewer.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "count",
+                    "description": "Only returns the nearest multiple of 3 compared to the original value.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "fields",
+                    "description": "The following field names are supported.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "Determines the format of the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "startIndex",
+                    "description": "Indicates the index of the first item to retrieve from the query set.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "updatedSince",
+                    "description": "Indicates the date before which no activities should be returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "personId",
+                    "description": "The person's identifier.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "selector",
+                    "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "rawModeData": ""
+        }
+    ]
+}
