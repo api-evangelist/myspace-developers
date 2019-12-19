@@ -1,0 +1,2204 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "My Space",
+        "description": "Create apps and games within the MySpace platform. Monetize through advertising and virtual goods.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.myspace.com\/"
+    ],
+    "paths": {
+        "\/1.0\/statusmoodcomments\/{personId}\/@self\/{statusId}": {
+            "post": {
+                "summary": "Post Statusmoodcomments Personid Self Statusid",
+                "description": "Posts a comment to a status.",
+                "operationId": "10StatusmoodcommentsPersonIdSelfStatusIdPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "statusId",
+                        "in": "path",
+                        "description": "Specifies which status or mood to post a comment for."
+                    },
+                    {
+                        "name": "selector",
+                        "in": "query",
+                        "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "filterBy",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterOp",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterValue",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/statusmood\/{personId}\/{selector}\/{friendId}\/history": {
+            "get": {
+                "summary": "Get Statusmood Personid Selector Friendid History",
+                "description": "Returns History Friend.",
+                "operationId": "10StatusmoodPersonIdSelectorFriendIdHistoryGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "friendId",
+                        "in": "path",
+                        "description": "Is the same as {personId}, but for the person's friend."
+                    },
+                    {
+                        "name": "selector",
+                        "in": "path",
+                        "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "filterBy",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterOp",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterValue",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/statusmood\/{personId}\/{selector}\/{friendId}": {
+            "get": {
+                "summary": "Get Statusmood Personid Selector Friendid",
+                "description": "Returns a status for Friend.",
+                "operationId": "10StatusmoodPersonIdSelectorFriendIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "friendId",
+                        "in": "path",
+                        "description": "Is the same as {personId}, but for the person's friend."
+                    },
+                    {
+                        "name": "selector",
+                        "in": "path",
+                        "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "filterBy",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterOp",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterValue",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/statusmood\/{personId}\/{selector}\/history": {
+            "get": {
+                "summary": "Get Statusmood Personid Selector History",
+                "description": "Returns History User.",
+                "operationId": "10StatusmoodPersonIdSelectorHistoryGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "selector",
+                        "in": "path",
+                        "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "filterBy",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterOp",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterValue",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/statusmood\/{personId}\/{selector}": {
+            "put": {
+                "summary": "Put Statusmood Personid Selector",
+                "description": "Updates a status for User.",
+                "operationId": "10StatusmoodPersonIdSelectorPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "selector",
+                        "in": "path",
+                        "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "filterBy",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterOp",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterValue",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Statusmood Personid Selector",
+                "description": "Returns a status for User.",
+                "operationId": "10StatusmoodPersonIdSelectorGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "selector",
+                        "in": "path",
+                        "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "filterBy",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterOp",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterValue",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/statusmood\/{personId}\/@supportedMood\/{moodId}": {
+            "put": {
+                "summary": "Put Statusmood Personid @supportedmood Moodid",
+                "description": "Updates a mood.",
+                "operationId": "10StatusmoodPersonIdSupportedMoodMoodIdPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "moodId",
+                        "in": "path",
+                        "description": "The integer value of the specific mood that you want to retrieve data for."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "filterBy",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterOp",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterValue",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Statusmood Personid @supportedmood Moodid",
+                "description": "Retrieves a mood.",
+                "operationId": "10StatusmoodPersonIdSupportedMoodMoodIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "moodId",
+                        "in": "path",
+                        "description": "The integer value of the specific mood that you want to retrieve data for."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "filterBy",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterOp",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterValue",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/statusmood\/{personId}\/@supportedMood": {
+            "post": {
+                "summary": "Post Statusmood Personid @supportedmood",
+                "description": "Adds a mood.",
+                "operationId": "10StatusmoodPersonIdSupportedMoodPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "filterBy",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterOp",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterValue",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Statusmood Personid @supportedmood",
+                "description": "Retrieves all supported moods.",
+                "operationId": "10StatusmoodPersonIdSupportedMoodGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "filterBy",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterOp",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterValue",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/mediaitemcomments\/{personId}\/@self\/{albumId}\/{mediaItemId}": {
+            "get": {
+                "summary": "Get Mediaitemcomments Personid Self Albums Mediaitemid",
+                "description": "Retrieves item comments from a specified album.",
+                "operationId": "10MediaitemcommentsPersonIdSelfAlbumIdMediaItemIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "albumId",
+                        "in": "path",
+                        "description": "Indicates which single album from the group identified by {selector} should be returned."
+                    },
+                    {
+                        "name": "mediaItemId",
+                        "in": "path",
+                        "description": "Indicates which single media item from the album identified by {albumId} should be returned."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/mediaItems\/{personId}\/@videos\/@supportedcategories\/{categoryId}": {
+            "get": {
+                "summary": "Get Mediaitems Personid Videos Supported Categories Categoryid",
+                "description": "Retrieves videos for Category.",
+                "operationId": "10MediaItemsPersonIdVideosSupportedcategoriesCategoryIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "categoryId",
+                        "in": "path",
+                        "description": "Indicates the video category about which you want to retrieve data."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/mediaItems\/{personId}\/@videos\/@supportedcategories": {
+            "get": {
+                "summary": "Get Mediaitems Personid Videos Supported Categories",
+                "description": "Retrieves supported categories.",
+                "operationId": "10MediaItemsPersonIdVideosSupportedcategoriesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/mediaItems\/{personId}\/@self\/@videos\/{mediaItemId}": {
+            "put": {
+                "summary": "Put Mediaitems Personid Self Videos Mediaitemid",
+                "description": "Updates an video.",
+                "operationId": "10MediaItemsPersonIdSelfVideosMediaItemIdPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "mediaItemId",
+                        "in": "path",
+                        "description": "Indicates which single media item from the album identified by {albumId} should be returned."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Mediaitems Personid Self Videos Mediaitemid",
+                "description": "Retrieves a video.",
+                "operationId": "10MediaItemsPersonIdSelfVideosMediaItemIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "mediaItemId",
+                        "in": "path",
+                        "description": "Indicates which single media item from the album identified by {albumId} should be returned."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/mediaItems\/{personId}\/@self\/@videos": {
+            "post": {
+                "summary": "Post Mediaitems Personid Self Videos",
+                "description": "Adds videos from a specified album.",
+                "operationId": "10MediaItemsPersonIdSelfVideosPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Mediaitems Personid Self Videos",
+                "description": "Retrieves all the videos.",
+                "operationId": "10MediaItemsPersonIdSelfVideosGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/mediaItems\/{personId}\/@self\/{albumId}\/{mediaItemId}": {
+            "put": {
+                "summary": "Put Mediaitems Personid Self Albums Mediaitemid",
+                "description": "Updates an item from a specified album.",
+                "operationId": "10MediaItemsPersonIdSelfAlbumIdMediaItemIdPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "albumId",
+                        "in": "path",
+                        "description": "Indicates which single album from the group identified by {selector} should be returned."
+                    },
+                    {
+                        "name": "mediaItemId",
+                        "in": "path",
+                        "description": "Indicates which single media item from the album identified by {albumId} should be returned."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Mediaitems Personid Self Albums Mediaitemid",
+                "description": "Retrieves an item from a specified album.",
+                "operationId": "10MediaItemsPersonIdSelfAlbumIdMediaItemIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "albumId",
+                        "in": "path",
+                        "description": "Indicates which single album from the group identified by {selector} should be returned."
+                    },
+                    {
+                        "name": "mediaItemId",
+                        "in": "path",
+                        "description": "Indicates which single media item from the album identified by {albumId} should be returned."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/mediaItems\/{personId}\/@self\/{albumId}": {
+            "post": {
+                "summary": "Post Mediaitems Personid Self Albums",
+                "description": "Adds items from a specified album.",
+                "operationId": "10MediaItemsPersonIdSelfAlbumIdPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "albumId",
+                        "in": "path",
+                        "description": "Indicates which single album from the group identified by {selector} should be returned."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Mediaitems Personid Self Albums",
+                "description": "Retrieves items from a specified album.",
+                "operationId": "10MediaItemsPersonIdSelfAlbumIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "albumId",
+                        "in": "path",
+                        "description": "Indicates which single album from the group identified by {selector} should be returned."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/mediaItems\/@supportedFields": {
+            "get": {
+                "summary": "Get Mediaitems Supported Fields",
+                "description": "Retrieves all supported fields.",
+                "operationId": "10MediaItemsSupportedFieldsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/stream\/subscription\/@all": {
+            "delete": {
+                "summary": "Delete Stream Subscription All",
+                "description": "Deletes all subscriptions.",
+                "operationId": "StreamSubscriptionAllDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Stream Subscription All",
+                "description": "Retrieves all subscriptions.",
+                "operationId": "StreamSubscriptionAllGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    }
+                ]
+            }
+        },
+        "\/stream\/subscription\/{subscriptionId}": {
+            "delete": {
+                "summary": "Delete Stream Subscription Subscriptionid",
+                "description": "Deletes a subscription.",
+                "operationId": "StreamSubscriptionSubscriptionIdDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "subscriptionId",
+                        "in": "path",
+                        "description": "The subscription's identifier."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Stream Subscription Subscriptionid",
+                "description": "Updates a subscription.",
+                "operationId": "StreamSubscriptionSubscriptionIdPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "subscriptionId",
+                        "in": "path",
+                        "description": "The subscription's identifier."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Stream Subscription Subscriptionid",
+                "description": "Retrieves a subscription.",
+                "operationId": "StreamSubscriptionSubscriptionIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "subscriptionId",
+                        "in": "path",
+                        "description": "The subscription's identifier."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    }
+                ]
+            }
+        },
+        "\/stream\/subscription": {
+            "post": {
+                "summary": "Post Stream Subscription",
+                "description": "Creates a subscription.",
+                "operationId": "StreamSubscriptionPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    }
+                ]
+            }
+        },
+        "\/opensearch\/videos": {
+            "get": {
+                "summary": "Get Opensearch Veos",
+                "description": "Returns search results for videos.",
+                "operationId": "OpensearchVideosGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "searchTerms",
+                        "in": "query",
+                        "description": "Free form search terms or query words"
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "culture",
+                        "in": "query",
+                        "description": "The culture context of the search. Default is en-us."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startPage",
+                        "in": "query",
+                        "description": "Which page to start at for the results."
+                    },
+                    {
+                        "name": "tag",
+                        "in": "query",
+                        "description": "Determine if searching on tags, as opposed to contents. To enable tag search, set to 1."
+                    },
+                    {
+                        "name": "videoMode",
+                        "in": "query",
+                        "description": "Search for specific video types. Two allowed values are videoMode=1 (music videos) or videoMode=2 (official)."
+                    }
+                ]
+            }
+        },
+        "\/opensearch\/images": {
+            "get": {
+                "summary": "Get Opensearch Images",
+                "description": "Returns search results for images.",
+                "operationId": "OpensearchImagesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "searchTerms",
+                        "in": "query",
+                        "description": "Free form search terms or query words"
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "culture",
+                        "in": "query",
+                        "description": "The culture context of the search. Default is en-us."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "sortBy",
+                        "in": "query",
+                        "description": "How to sort the images. Default is all."
+                    },
+                    {
+                        "name": "sortOrder",
+                        "in": "query",
+                        "description": "Indicates whether to sort ascending or descending. Default is descending."
+                    },
+                    {
+                        "name": "startPage",
+                        "in": "query",
+                        "description": "Which page to start at for the results."
+                    }
+                ]
+            }
+        },
+        "\/opensearch\/people": {
+            "get": {
+                "summary": "Get Opensearch People",
+                "description": "Returns search results for people.",
+                "operationId": "OpensearchPeopleGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "searchTerms",
+                        "in": "query",
+                        "description": "Free form search terms or query words"
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "countryCode",
+                        "in": "query",
+                        "description": "Country code to search with. Can be used instead of culture."
+                    },
+                    {
+                        "name": "culture",
+                        "in": "query",
+                        "description": "The culture context of the search. Default is en-us."
+                    },
+                    {
+                        "name": "distance",
+                        "in": "query",
+                        "description": "Distance away from location to return results. Default is in miles, but depending on culture specified, it can be in kilometers."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "gender",
+                        "in": "query",
+                        "description": "The gender to filter on. Default is both."
+                    },
+                    {
+                        "name": "hasPhoto",
+                        "in": "query",
+                        "description": "Filter for only those who have a photo. Default those with or without a photo."
+                    },
+                    {
+                        "name": "latitude",
+                        "in": "query",
+                        "description": "Geographic latitude. Required to be combined with longitude and not combined with location field."
+                    },
+                    {
+                        "name": "location",
+                        "in": "query",
+                        "description": "The location field, such as city, state and\/or country."
+                    },
+                    {
+                        "name": "longitude",
+                        "in": "query",
+                        "description": "Geographic longitude. Required to be combined with latitude and not combined with location field."
+                    },
+                    {
+                        "name": "minAge",
+                        "in": "query",
+                        "description": "Minimum age for returned people. Same functionality as the MySpace website search."
+                    },
+                    {
+                        "name": "maxAge",
+                        "in": "query",
+                        "description": "Maximum age for returned people. Same functionality as the MySpace website search."
+                    },
+                    {
+                        "name": "searchBy",
+                        "in": "query",
+                        "description": "Which field the search should go through. Default is all of the fields. (yomi is only available to ja-jp culture)."
+                    },
+                    {
+                        "name": "startPage",
+                        "in": "query",
+                        "description": "Which page to start at for the results."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/profilecomments\/{personId}\/@self": {
+            "get": {
+                "summary": "Get Profilecomments Personid Self",
+                "description": "Retrieves profile comments.",
+                "operationId": "10ProfilecommentsPersonIdSelfGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/people\/{personId}\/{selector}\/{friendId}": {
+            "get": {
+                "summary": "Get People Personid Selector Friendid",
+                "description": "Retrieves friend data.",
+                "operationId": "10PeoplePersonIdSelectorFriendIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "selector",
+                        "in": "path",
+                        "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably."
+                    },
+                    {
+                        "name": "friendId",
+                        "in": "path",
+                        "description": "Is the same as {personId}, but for the person's friend."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "filterBy",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterOp",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterValue",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/people\/{personId}\/{selector}": {
+            "get": {
+                "summary": "Get People Personid Selector",
+                "description": "Retrieves user data.",
+                "operationId": "10PeoplePersonIdSelectorGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "selector",
+                        "in": "path",
+                        "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "filterBy",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterOp",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "filterValue",
+                        "in": "query",
+                        "description": "See: http:\/\/wiki.developer.myspace.com\/index.php?title=Status_and_Mood_API#Filtering_Results"
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/people\/@supportedFields": {
+            "get": {
+                "summary": "Get People Supported Fields",
+                "description": "Retrieves all supported fields.",
+                "operationId": "10PeopleSupportedFieldsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/appdata\/{personId}\/{selector}\/{appId}": {
+            "delete": {
+                "summary": "Delete Appdata Personid Selector Appid",
+                "description": "Deletes a specified user's application data.",
+                "operationId": "10AppdataPersonIdSelectorAppIdDelete",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "selector",
+                        "in": "path",
+                        "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably."
+                    },
+                    {
+                        "name": "appId",
+                        "in": "path",
+                        "description": "The application's ID associated with the OAuth ConsumerKey\/ConsumerSecret pair."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Appdata Personid Selector Appid",
+                "description": "Adds or updates a specified user's application data.",
+                "operationId": "10AppdataPersonIdSelectorAppIdPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "selector",
+                        "in": "path",
+                        "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably."
+                    },
+                    {
+                        "name": "appId",
+                        "in": "path",
+                        "description": "The application's ID associated with the OAuth ConsumerKey\/ConsumerSecret pair."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Appdata Personid Selector Appid",
+                "description": "Retrieves all application data for a specified user.",
+                "operationId": "10AppdataPersonIdSelectorAppIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "selector",
+                        "in": "path",
+                        "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably."
+                    },
+                    {
+                        "name": "appId",
+                        "in": "path",
+                        "description": "The application's ID associated with the OAuth ConsumerKey\/ConsumerSecret pair."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/notifications\/{personId}\/@self": {
+            "post": {
+                "summary": "Post Notifications Personid Self",
+                "description": "Sends notification.",
+                "operationId": "10NotificationsPersonIdSelfPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/groups\/{personId}": {
+            "get": {
+                "summary": "Get Groups Personid",
+                "description": "Retrieves the current user's groups.",
+                "operationId": "10GroupsPersonIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/groups\/@supportedFields": {
+            "get": {
+                "summary": "Get Groups Supported Fields",
+                "description": "Retrieves all supported fields.",
+                "operationId": "10GroupsSupportedFieldsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/albums\/{personId}\/@self\/{albumId}": {
+            "put": {
+                "summary": "Put Albums Personid Self Albums",
+                "description": "Update an Album.",
+                "operationId": "10AlbumsPersonIdSelfAlbumIdPut",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "albumId",
+                        "in": "path",
+                        "description": "Indicates which single album from the group identified by {selector} should be returned."
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Albums Personid Self Albums",
+                "description": "Retrieves an album.",
+                "operationId": "10AlbumsPersonIdSelfAlbumIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "albumId",
+                        "in": "path",
+                        "description": "Indicates which single album from the group identified by {selector} should be returned."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/albums\/{personId}\/@self": {
+            "post": {
+                "summary": "Post Albums Personid Self",
+                "description": "Adding an Album.",
+                "operationId": "10AlbumsPersonIdSelfPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Albums Personid Self",
+                "description": "Retrieves the current user's albums.",
+                "operationId": "10AlbumsPersonIdSelfGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/albums\/@supportedFields": {
+            "get": {
+                "summary": "Get Albums Supported Fields",
+                "description": "Retrieves all supported fields.",
+                "operationId": "10AlbumsSupportedFieldsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "msPrivacyLevel",
+                        "in": "query",
+                        "description": "MySpace specific field. May be one of the following values:\nme - Media item is private.\nfriendsonly - Media item is visible to friends.\neveryone - Media item is visible to everyone."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/activities\/{personId}\/{selector}\/{appId}": {
+            "get": {
+                "summary": "Get Activities Personid Selector Appid",
+                "description": "Retrieves activities created by an application.",
+                "operationId": "10ActivitiesPersonIdSelectorAppIdGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "selector",
+                        "in": "path",
+                        "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably."
+                    },
+                    {
+                        "name": "appId",
+                        "in": "path",
+                        "description": "The application's ID associated with the OAuth ConsumerKey\/ConsumerSecret pair."
+                    },
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    },
+                    {
+                        "name": "updatedSince",
+                        "in": "query",
+                        "description": "Indicates the date before which no activities should be returned."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/activities\/@supportedObjectTypes": {
+            "get": {
+                "summary": "Get Activities Supported Object Types",
+                "description": "Retrieves all supported object types.",
+                "operationId": "10ActivitiesSupportedObjectTypesGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    },
+                    {
+                        "name": "updatedSince",
+                        "in": "query",
+                        "description": "Indicates the date before which no activities should be returned."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/activities\/@supportedVerbs": {
+            "get": {
+                "summary": "Get Activities Supported Verbs",
+                "description": "Retrieves all supported verbs.",
+                "operationId": "10ActivitiesSupportedVerbsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    },
+                    {
+                        "name": "updatedSince",
+                        "in": "query",
+                        "description": "Indicates the date before which no activities should be returned."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/activities\/@supportedFields": {
+            "get": {
+                "summary": "Get Activities Supported Fields",
+                "description": "Retrieves all supported fields.",
+                "operationId": "10ActivitiesSupportedFieldsGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    },
+                    {
+                        "name": "updatedSince",
+                        "in": "query",
+                        "description": "Indicates the date before which no activities should be returned."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/activities\/{personId}\/@self": {
+            "post": {
+                "summary": "Post Activities Personid Self",
+                "description": "Creates an activity for the user.",
+                "operationId": "10ActivitiesPersonIdSelfPost",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "Content",
+                        "in": "header",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "Content",
+                        "in": "query",
+                        "description": "Specifies Content Type."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    }
+                ]
+            }
+        },
+        "\/1.0\/activities\/{personId}\/{selector}": {
+            "get": {
+                "summary": "Get Activities Personid Selector",
+                "description": "Retrieves all activities for the user or for the friends of the viewer.",
+                "operationId": "10ActivitiesPersonIdSelectorGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "count",
+                        "in": "query",
+                        "description": "Only returns the nearest multiple of 3 compared to the original value."
+                    },
+                    {
+                        "name": "fields",
+                        "in": "query",
+                        "description": "The following field names are supported."
+                    },
+                    {
+                        "name": "format",
+                        "in": "query",
+                        "description": "Determines the format of the response."
+                    },
+                    {
+                        "name": "startIndex",
+                        "in": "query",
+                        "description": "Indicates the index of the first item to retrieve from the query set."
+                    },
+                    {
+                        "name": "updatedSince",
+                        "in": "query",
+                        "description": "Indicates the date before which no activities should be returned."
+                    },
+                    {
+                        "name": "personId",
+                        "in": "path",
+                        "description": "The person's identifier."
+                    },
+                    {
+                        "name": "selector",
+                        "in": "path",
+                        "description": "Indicates which set of individuals to query for activities. @friends and @all currently can be used interchangeably."
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
