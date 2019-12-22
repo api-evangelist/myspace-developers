@@ -1,5 +1,5 @@
 {
-    "id": "dff9506ca17b526eb44fb52db183553f",
+    "id": "2af988799c032ac64689c504942cfccc",
     "name": "My Space",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "54239336393d469d87a52011aca09bba",
+            "id": "d4a2c41aa3039a20dd0f18c827d2d725",
             "name": "Post Statusmoodcomments Personid Self Statusid",
             "url": "httpsapi.myspace.com\/\/1.0\/statusmoodcomments\/{personId}\/@self\/{statusId}",
             "description": "Posts a comment to a status.",
@@ -114,11 +114,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "fe85b44823bb535a12651feba0b71ad8",
+            "id": "76cc06868c23e64b43ebd1b8630c945a",
             "name": "Get Statusmood Personid Selector Friendid History",
             "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/{selector}\/{friendId}\/history",
             "description": "Returns History Friend.",
@@ -208,11 +208,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "b57b33d73890f924a52859a3f8a33b3b",
+            "id": "636da2dd02ee25a242f6cbb53bc46d04",
             "name": "Get Statusmood Personid Selector Friendid",
             "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/{selector}\/{friendId}",
             "description": "Returns a status for Friend.",
@@ -302,11 +302,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "e9c72469ff38a4228520dfa20efb3e14",
+            "id": "662eb0e2a66339955491d58808084a8d",
             "name": "Get Statusmood Personid Selector History",
             "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/{selector}\/history",
             "description": "Returns History User.",
@@ -389,11 +389,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "1cdd385b628d497651c361009282f6d6",
+            "id": "791857ec068dcfa7cd1218f373b66035",
             "name": "Put Statusmood Personid Selector",
             "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/{selector}",
             "description": "Updates a status for User.",
@@ -490,11 +490,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "d888b7f7799a9fa56009cd8c3fe5bb24",
+            "id": "1c6b4efe1cfb1b71fd7596f71e2661f8",
             "name": "Get Statusmood Personid Selector",
             "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/{selector}",
             "description": "Returns a status for User.",
@@ -577,11 +577,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "e6d3a79454b08b1414ac1651298cece4",
+            "id": "76588671cfa9bcb3b6eecb5c00667f56",
             "name": "Put Statusmood Personid @supportedmood Moodid",
             "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/@supportedMood\/{moodId}",
             "description": "Updates a mood.",
@@ -678,11 +678,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "f02f12063bc1d9ae8aaa668cab1a6066",
+            "id": "3da2abd1b570db66e6f3f1e31cb81334",
             "name": "Get Statusmood Personid @supportedmood Moodid",
             "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/@supportedMood\/{moodId}",
             "description": "Retrieves a mood.",
@@ -765,11 +765,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "e1e44478d617137cc7319a49650aff97",
+            "id": "7a05a10f8859a791602ce53b332cbab3",
             "name": "Post Statusmood Personid @supportedmood",
             "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/@supportedMood",
             "description": "Adds a mood.",
@@ -859,11 +859,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "1fac82d5ba4bd69f1bae23a5925b3d67",
+            "id": "c0d1db960ff5cc166fe0e5b145861b81",
             "name": "Get Statusmood Personid @supportedmood",
             "url": "httpsapi.myspace.com\/\/1.0\/statusmood\/{personId}\/@supportedMood",
             "description": "Retrieves all supported moods.",
@@ -939,11 +939,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "bcfe08f539edd05ba1600bfd44ad8fb8",
+            "id": "92c80a1ef0bf8da3ca8507b9a5cb3e41",
             "name": "Get Mediaitemcomments Personid Self Albums Mediaitemid",
             "url": "httpsapi.myspace.com\/\/1.0\/mediaitemcomments\/{personId}\/@self\/{albumId}\/{mediaItemId}",
             "description": "Retrieves item comments from a specified album.",
@@ -1019,11 +1019,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "c9ad78d19ce2e7202407738c2613cd2e",
+            "id": "2f16162e0ce641847afa188fe47a736e",
             "name": "Get Mediaitems Personid Videos Supported Categories Categoryid",
             "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@videos\/@supportedcategories\/{categoryId}",
             "description": "Retrieves videos for Category.",
@@ -1092,11 +1092,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "c4aaed5ad46c147ee28d198bf154db0c",
+            "id": "b5d9f198206b7fb4fdad9e9cc91e8cc1",
             "name": "Get Mediaitems Personid Videos Supported Categories",
             "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@videos\/@supportedcategories",
             "description": "Retrieves supported categories.",
@@ -1158,11 +1158,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "08a3ba7ba4f6b01e63a4ea7bb4d5b14e",
+            "id": "959a4b5a3bf7d8c6007d3a45269e04f1",
             "name": "Put Mediaitems Personid Self Videos Mediaitemid",
             "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/@videos\/{mediaItemId}",
             "description": "Updates an video.",
@@ -1245,11 +1245,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "94cec3a859fb120b3bcd875ba03a5335",
+            "id": "3b0813ca2fcf3ee7a4afe792b09cdb19",
             "name": "Get Mediaitems Personid Self Videos Mediaitemid",
             "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/@videos\/{mediaItemId}",
             "description": "Retrieves a video.",
@@ -1318,11 +1318,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "3df00ba9d5de7b5ddd61a60303342bb5",
+            "id": "11a6b8dbcd463221caf622952e3bdbcb",
             "name": "Post Mediaitems Personid Self Videos",
             "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/@videos",
             "description": "Adds videos from a specified album.",
@@ -1398,11 +1398,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "527f4cccd8f8276c613e5209ae0d5f5b",
+            "id": "ba46fb00daa69bea83bba7b4215ca68e",
             "name": "Get Mediaitems Personid Self Videos",
             "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/@videos",
             "description": "Retrieves all the videos.",
@@ -1464,11 +1464,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "e7de78958170bd81177e5580f8e0ed5e",
+            "id": "8dd526dc13024fda8411546a1bba4cf7",
             "name": "Put Mediaitems Personid Self Albums Mediaitemid",
             "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/{albumId}\/{mediaItemId}",
             "description": "Updates an item from a specified album.",
@@ -1558,11 +1558,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "70e3065e29eb961a4406699990cb1ef9",
+            "id": "8341e2caae5bec955bd8ec4339127a6a",
             "name": "Get Mediaitems Personid Self Albums Mediaitemid",
             "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/{albumId}\/{mediaItemId}",
             "description": "Retrieves an item from a specified album.",
@@ -1638,11 +1638,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "8e27c436362ede89f1551c01eac4b5cd",
+            "id": "96cb4935d204c67bcf935f058b9d0a0d",
             "name": "Post Mediaitems Personid Self Albums",
             "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/{albumId}",
             "description": "Adds items from a specified album.",
@@ -1725,11 +1725,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "ed53bddc7164b358a3b8fdec8499ace6",
+            "id": "1574988f7a226d3b49cd94fff3854c02",
             "name": "Get Mediaitems Personid Self Albums",
             "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/{personId}\/@self\/{albumId}",
             "description": "Retrieves items from a specified album.",
@@ -1798,11 +1798,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "861fdf9b8682b61008f190917ed69485",
+            "id": "689baa81f34b4dfe734d9f89c15a3482",
             "name": "Get Mediaitems Supported Fields",
             "url": "httpsapi.myspace.com\/\/1.0\/mediaItems\/@supportedFields",
             "description": "Retrieves all supported fields.",
@@ -1857,11 +1857,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "24700a005635bc4a260bc0976346da6d",
+            "id": "c832c4ad88dc9668622a622810f20d61",
             "name": "Delete Stream Subscription All",
             "url": "httpsapi.myspace.com\/\/stream\/subscription\/@all",
             "description": "Deletes all subscriptions.",
@@ -1888,11 +1888,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "e708b6842be481a7378e5845efe4a267",
+            "id": "e3eb6b42948325190fe3d64ed547e0d2",
             "name": "Get Stream Subscription All",
             "url": "httpsapi.myspace.com\/\/stream\/subscription\/@all",
             "description": "Retrieves all subscriptions.",
@@ -1919,11 +1919,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "4586026788fffa89449ef1b3694cbbf7",
+            "id": "9a9b37b0b334dbe6ff55c1cac4d85d6c",
             "name": "Delete Stream Subscription Subscriptionid",
             "url": "httpsapi.myspace.com\/\/stream\/subscription\/{subscriptionId}",
             "description": "Deletes a subscription.",
@@ -1957,11 +1957,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "1da540aebac1f4737ace8769aecaa05a",
+            "id": "80d78e3449828c62902a8b00bcf621df",
             "name": "Put Stream Subscription Subscriptionid",
             "url": "httpsapi.myspace.com\/\/stream\/subscription\/{subscriptionId}",
             "description": "Updates a subscription.",
@@ -2009,11 +2009,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "4254bfbfb0a5810f7b606243b1521888",
+            "id": "33cbea558efebadf1b57bd899e57f76c",
             "name": "Get Stream Subscription Subscriptionid",
             "url": "httpsapi.myspace.com\/\/stream\/subscription\/{subscriptionId}",
             "description": "Retrieves a subscription.",
@@ -2047,11 +2047,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "f1328edb08ef33518516e7a51a32d960",
+            "id": "556654ec105d3a3ec20c291880a01a73",
             "name": "Post Stream Subscription",
             "url": "httpsapi.myspace.com\/\/stream\/subscription",
             "description": "Creates a subscription.",
@@ -2092,11 +2092,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "395f4267e6884046afb7f38ae798fdc1",
+            "id": "003a4756d883ff188f709c3ea138d99e",
             "name": "Get Opensearch Veos",
             "url": "httpsapi.myspace.com\/\/opensearch\/videos",
             "description": "Returns search results for videos.",
@@ -2165,11 +2165,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "e65504757ea4e6657c842e8552ac4896",
+            "id": "d79e355e40113837a6c68692777679d7",
             "name": "Get Opensearch Images",
             "url": "httpsapi.myspace.com\/\/opensearch\/images",
             "description": "Returns search results for images.",
@@ -2238,11 +2238,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "4bdf5c3b65327ae3c9ef1109b0d6a843",
+            "id": "ebcc3ed0a81348a4e490f8eca7236b66",
             "name": "Get Opensearch People",
             "url": "httpsapi.myspace.com\/\/opensearch\/people",
             "description": "Returns search results for people.",
@@ -2367,11 +2367,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "63449ddf8ef437936d5c848909eb5d9f",
+            "id": "274c1544c1e7b540fd898915a316c836",
             "name": "Get Profilecomments Personid Self",
             "url": "httpsapi.myspace.com\/\/1.0\/profilecomments\/{personId}\/@self",
             "description": "Retrieves profile comments.",
@@ -2398,11 +2398,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "6c028021324938215df4c1101dd1df22",
+            "id": "561f5781022c62a284e139d0ffa38edf",
             "name": "Get People Personid Selector Friendid",
             "url": "httpsapi.myspace.com\/\/1.0\/people\/{personId}\/{selector}\/{friendId}",
             "description": "Retrieves friend data.",
@@ -2492,11 +2492,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "14cfe5dde2d483c359e635f559a8fad3",
+            "id": "74e5d191e22d14959ea51124c17e7485",
             "name": "Get People Personid Selector",
             "url": "httpsapi.myspace.com\/\/1.0\/people\/{personId}\/{selector}",
             "description": "Retrieves user data.",
@@ -2579,11 +2579,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "23110b52318259a0dafe36db5809d4e1",
+            "id": "8dbbc22adc00f0725fbc6cc5cee51efb",
             "name": "Get People Supported Fields",
             "url": "httpsapi.myspace.com\/\/1.0\/people\/@supportedFields",
             "description": "Retrieves all supported fields.",
@@ -2631,11 +2631,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "37944e1f33c88c3f41ff6cdf587692a9",
+            "id": "aa2480784e27899aaa6099a03b98806b",
             "name": "Delete Appdata Personid Selector Appid",
             "url": "httpsapi.myspace.com\/\/1.0\/appdata\/{personId}\/{selector}\/{appId}",
             "description": "Deletes a specified user's application data.",
@@ -2690,11 +2690,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "abfe9ba6b44d48c09dc5a405c25f286e",
+            "id": "b3740eac137c42df60948a45738e4936",
             "name": "Post Appdata Personid Selector Appid",
             "url": "httpsapi.myspace.com\/\/1.0\/appdata\/{personId}\/{selector}\/{appId}",
             "description": "Adds or updates a specified user's application data.",
@@ -2763,11 +2763,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "ba35838038af8291219d2ff0788a85a9",
+            "id": "85b5afb18add515c967f51aeb4bcd55e",
             "name": "Get Appdata Personid Selector Appid",
             "url": "httpsapi.myspace.com\/\/1.0\/appdata\/{personId}\/{selector}\/{appId}",
             "description": "Retrieves all application data for a specified user.",
@@ -2822,11 +2822,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "c15910aabcfd3bd10bf8be851c8ed894",
+            "id": "19479575b1f8dd7fe6393bf59cb8c000",
             "name": "Post Notifications Personid Self",
             "url": "httpsapi.myspace.com\/\/1.0\/notifications\/{personId}\/@self",
             "description": "Sends notification.",
@@ -2867,11 +2867,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "908079a10d946f51681ae4d8dca802d3",
+            "id": "e629632292503bfc78718b953a8ddce9",
             "name": "Get Groups Personid",
             "url": "httpsapi.myspace.com\/\/1.0\/groups\/{personId}",
             "description": "Retrieves the current user's groups.",
@@ -2933,11 +2933,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "da96b47110f7ec5886456f1e42a6317c",
+            "id": "5d2ede6fcca7263881949cce7524785d",
             "name": "Get Groups Supported Fields",
             "url": "httpsapi.myspace.com\/\/1.0\/groups\/@supportedFields",
             "description": "Retrieves all supported fields.",
@@ -2992,11 +2992,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "12c7a31a134d21014916ef58ed99abcc",
+            "id": "5049774b486ea30160299b81c3af7fa9",
             "name": "Put Albums Personid Self Albums",
             "url": "httpsapi.myspace.com\/\/1.0\/albums\/{personId}\/@self\/{albumId}",
             "description": "Update an Album.",
@@ -3044,11 +3044,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "f7f79716e40e5d1b003a88dac4e857f0",
+            "id": "00bd404f91ba68bafd0abcb3afea5fa7",
             "name": "Get Albums Personid Self Albums",
             "url": "httpsapi.myspace.com\/\/1.0\/albums\/{personId}\/@self\/{albumId}",
             "description": "Retrieves an album.",
@@ -3082,11 +3082,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "f6d36e37c69be9943185e64dd11be9df",
+            "id": "4456b37cb36ccf50f23ef197aeca32a1",
             "name": "Post Albums Personid Self",
             "url": "httpsapi.myspace.com\/\/1.0\/albums\/{personId}\/@self",
             "description": "Adding an Album.",
@@ -3127,11 +3127,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "1f82cc35f8ff35900d346149994fd54a",
+            "id": "ea83ff124ad16d9c804fd2c00bae7572",
             "name": "Get Albums Personid Self",
             "url": "httpsapi.myspace.com\/\/1.0\/albums\/{personId}\/@self",
             "description": "Retrieves the current user's albums.",
@@ -3193,11 +3193,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "7f3c0a7d52743bed8b62b22534d96dbd",
+            "id": "e9e0d6057199fec2fbe095b3ad05f581",
             "name": "Get Albums Supported Fields",
             "url": "httpsapi.myspace.com\/\/1.0\/albums\/@supportedFields",
             "description": "Retrieves all supported fields.",
@@ -3252,11 +3252,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "273bb493274d63c172672ffd296c5eae",
+            "id": "64f40036b26a05f88e490a9cca4092f2",
             "name": "Get Activities Personid Selector Appid",
             "url": "httpsapi.myspace.com\/\/1.0\/activities\/{personId}\/{selector}\/{appId}",
             "description": "Retrieves activities created by an application.",
@@ -3332,11 +3332,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "a6c64518d71e162f30f851b9347f24d0",
+            "id": "c1ce673ce2ec79ba9f49b34d62d431b6",
             "name": "Get Activities Supported Object Types",
             "url": "httpsapi.myspace.com\/\/1.0\/activities\/@supportedObjectTypes",
             "description": "Retrieves all supported object types.",
@@ -3391,11 +3391,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "9a9f43494880921c2d1295ad259bb356",
+            "id": "fe627a7fc220da826d153aaf1eff4caf",
             "name": "Get Activities Supported Verbs",
             "url": "httpsapi.myspace.com\/\/1.0\/activities\/@supportedVerbs",
             "description": "Retrieves all supported verbs.",
@@ -3450,11 +3450,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "26243f8eef010c084765d47f4ecbfdd3",
+            "id": "085fdd9d257a5b264cf8224b98e0af32",
             "name": "Get Activities Supported Fields",
             "url": "httpsapi.myspace.com\/\/1.0\/activities\/@supportedFields",
             "description": "Retrieves all supported fields.",
@@ -3509,11 +3509,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "09e6a93713af70af49e775008cd64557",
+            "id": "035afd7bfe83b2887909a79fc5416eb0",
             "name": "Post Activities Personid Self",
             "url": "httpsapi.myspace.com\/\/1.0\/activities\/{personId}\/@self",
             "description": "Creates an activity for the user.",
@@ -3554,11 +3554,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         },
         {
-            "id": "f0b54fb2dab8b234e4a3d7375d4c3418",
+            "id": "f4b51e327ec39d9c0d44494be9f6def4",
             "name": "Get Activities Personid Selector",
             "url": "httpsapi.myspace.com\/\/1.0\/activities\/{personId}\/{selector}",
             "description": "Retrieves all activities for the user or for the friends of the viewer.",
@@ -3627,7 +3627,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "dff9506ca17b526eb44fb52db183553f",
+            "collectionId": "2af988799c032ac64689c504942cfccc",
             "rawModeData": ""
         }
     ]
